@@ -5,9 +5,13 @@
 Основные настройки:
 
  `API_KEY` - статический API ключ.
+
  `DATABASE_URL` - строка подключения к PostgreSQL.
+
  `RABBITMQ_URL` - строка подключения к RabbitMQ.
+
  `MAX_PROCESSING_ATTEMPTS=3` - общее количество попыток обработки сообщения.
+
  `RETRY_BACKOFF_BASE_SECONDS=1` - базовая экспоненциальная задержка.
 
 ## Запуск через Docker Compose
